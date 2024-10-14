@@ -1,0 +1,273 @@
+[2024-10-07 11:05:23+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:05:23+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:05:23+04:00] ERROR: The stream or file "/home/elmigo/dev/FriendLee/test/install.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: Installer API request received Context: {"method":"GET","endpoint":"checkPhpVersion"} {"exception":"[object] (UnexpectedValueException(code: 0): The stream or file \"/home/elmigo/dev/FriendLee/test/install.log\" could not be opened in append mode: Failed to open stream: Permission denied\nThe exception occurred while attempting to log: Installer API request received\nContext: {\"method\":\"GET\",\"endpoint\":\"checkPhpVersion\"} at /home/elmigo/dev/FriendLee/test/install/api/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:149)"} 
+[2024-10-07 11:05:23+04:00] ERROR: The stream or file "/home/elmigo/dev/FriendLee/test/install.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: Installer API request received Context: {"method":"GET","endpoint":"checkApi"} {"exception":"[object] (UnexpectedValueException(code: 0): The stream or file \"/home/elmigo/dev/FriendLee/test/install.log\" could not be opened in append mode: Failed to open stream: Permission denied\nThe exception occurred while attempting to log: Installer API request received\nContext: {\"method\":\"GET\",\"endpoint\":\"checkApi\"} at /home/elmigo/dev/FriendLee/test/install/api/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:149)"} 
+[2024-10-07 11:05:23+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:05:23+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:05:23+04:00] ERROR: The stream or file "/home/elmigo/dev/FriendLee/test/install.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: Installer API request received Context: {"method":"GET","endpoint":"checkPhpVersion"} {"code":500,"exception":null} 
+[2024-10-07 11:05:23+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:05:23+04:00] ERROR: The stream or file "/home/elmigo/dev/FriendLee/test/install.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: Installer API request received Context: {"method":"GET","endpoint":"checkApi"} {"code":500,"exception":null} 
+[2024-10-07 11:05:23+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:08:08+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:08:08+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:08:08+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:08:08+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:08:08+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:08:08+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:08:08+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:08:08+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:08:08+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:08:08+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:08:08+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:08:08+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:08:09+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:08:09+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:08:19+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:08:19+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:08:19+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:08:19+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:08:19+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:08:19+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:08:19+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:08:19+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:08:19+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:08:19+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:08:19+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:08:19+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:08:20+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:08:20+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:09:20+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:09:20+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:09:20+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:09:20+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "mbstring" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "fileinfo" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "openssl" extension  
+[2024-10-07 11:09:20+04:00] NOTICE: Checking PHP "gd" extension  
+[2024-10-07 11:09:20+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:09:20+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:09:20+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:09:20+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:09:22+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:09:22+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:09:22+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:09:22+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:09:22+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:09:22+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:09:22+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "mbstring" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "fileinfo" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "openssl" extension  
+[2024-10-07 11:09:22+04:00] NOTICE: Checking PHP "gd" extension  
+[2024-10-07 11:09:22+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:09:23+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:09:23+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:09:42+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:09:42+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:09:42+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:09:42+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "mbstring" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "fileinfo" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "openssl" extension  
+[2024-10-07 11:09:42+04:00] NOTICE: Checking PHP "gd" extension  
+[2024-10-07 11:09:42+04:00] ERROR: Missing extension {"code":500,"exception":null} 
+[2024-10-07 11:09:42+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:09:43+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:09:43+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:10:06+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpVersion"} 
+[2024-10-07 11:10:06+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkApi"} 
+[2024-10-07 11:10:06+04:00] NOTICE: Trying Winter CMS API  
+[2024-10-07 11:10:06+04:00] NOTICE: Compared PHP version {"installed":"8.1.2-1ubuntu2.19","needed":"8.0.2"} 
+[2024-10-07 11:10:06+04:00] INFO: Winter API request {"method":"GET","uri":"ping"} 
+[2024-10-07 11:10:06+04:00] NOTICE: PHP version requirement met.  
+[2024-10-07 11:10:06+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkPhpExtensions"} 
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "curl" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "json" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "pdo" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "zip" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "mbstring" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "fileinfo" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "openssl" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "gd" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "filter" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "hash" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Checking PHP "dom" extension  
+[2024-10-07 11:10:06+04:00] NOTICE: Required PHP extensions are installed.  
+[2024-10-07 11:10:07+04:00] NOTICE: Response received from Winter CMS API {"response":"pong"} 
+[2024-10-07 11:10:07+04:00] NOTICE: Winter CMS API connection successful.  
+[2024-10-07 11:14:53+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:14:53+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:14:53+04:00] NOTICE: Check database connection  
+[2024-10-07 11:14:53+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:14:53+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:14:53+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:15:02+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:15:02+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:15:02+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:15:02+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:15:02+04:00] NOTICE: Check database connection  
+[2024-10-07 11:15:02+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:16:22+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:16:22+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:16:22+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:16:22+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:16:22+04:00] NOTICE: Check database connection  
+[2024-10-07 11:16:22+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:16:24+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:16:24+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:16:24+04:00] NOTICE: Check database connection  
+[2024-10-07 11:16:24+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:16:24+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:16:24+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:16:25+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:16:25+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:16:25+04:00] NOTICE: Check database connection  
+[2024-10-07 11:16:25+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:16:25+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:16:25+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:17:28+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:17:28+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:17:28+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:17:28+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:17:28+04:00] NOTICE: Check database connection  
+[2024-10-07 11:17:28+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:17:29+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:17:29+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:17:29+04:00] NOTICE: Check database connection  
+[2024-10-07 11:17:29+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:17:29+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:17:29+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:22:05+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:22:05+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:22:05+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:22:05+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:22:05+04:00] NOTICE: Check database connection  
+[2024-10-07 11:22:05+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:22:06+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:22:06+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:22:06+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:22:06+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:22:06+04:00] NOTICE: Check database connection  
+[2024-10-07 11:22:06+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:22:07+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:22:07+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:22:07+04:00] NOTICE: Check database connection  
+[2024-10-07 11:22:07+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:22:07+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:22:07+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:25:16+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:25:16+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:25:16+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:25:16+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:25:16+04:00] NOTICE: Check database connection  
+[2024-10-07 11:25:16+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:25:17+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:25:17+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:25:17+04:00] NOTICE: Check database connection  
+[2024-10-07 11:25:17+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:25:17+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:25:17+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:25:18+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:25:18+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:25:18+04:00] NOTICE: Check database connection  
+[2024-10-07 11:25:18+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:25:18+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:25:18+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:26:05+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:26:05+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:26:05+04:00] NOTICE: Check database connection  
+[2024-10-07 11:26:05+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:26:05+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:26:05+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:26:06+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:26:06+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:26:06+04:00] NOTICE: Check database connection  
+[2024-10-07 11:26:06+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:26:06+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:26:06+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:26:43+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:26:43+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:26:43+04:00] NOTICE: Check database connection  
+[2024-10-07 11:26:43+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:26:43+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:26:43+04:00] ERROR: Database could not be connected to. {"code":500,"exception":"could not find driver"} 
+[2024-10-07 11:28:35+04:00] INFO: Installer API request received {"method":"GET","endpoint":"checkWriteAccess"} 
+[2024-10-07 11:28:35+04:00] INFO: Installer API request received {"method":"POST","endpoint":"checkDatabase"} 
+[2024-10-07 11:28:35+04:00] NOTICE: Current working directory is writable.  
+[2024-10-07 11:28:35+04:00] NOTICE: Creating temporary SQLite DB {"path":"/home/elmigo/dev/FriendLee/test/.temp.sqlite"} 
+[2024-10-07 11:28:35+04:00] NOTICE: Check database connection  
+[2024-10-07 11:28:35+04:00] NOTICE: Found 0 table(s) {"tables":""} 
+[2024-10-07 11:28:35+04:00] NOTICE: Database connection established and verified empty  
+[2024-10-07 11:28:41+04:00] INFO: Installer API request received {"method":"POST","endpoint":"downloadWinter"} 
+[2024-10-07 11:28:41+04:00] NOTICE: Try downloading Winter CMS archive  
+[2024-10-07 11:28:41+04:00] NOTICE: Downloading Winter ZIP via cURL {"url":"https://github.com/wintercms/winter/archive/refs/heads/1.2.zip"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Winter CMS ZIP file downloaded {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/winter.zip"} 
+[2024-10-07 11:28:45+04:00] INFO: Installer API request received {"method":"POST","endpoint":"extractWinter"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Begin extracting Winter CMS archive  
+[2024-10-07 11:28:45+04:00] NOTICE: Move subfoldered files into position {"subfolder":"winter-1.2/"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Remove ZIP subfolder {"subfolder":"winter-1.2/"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Make artisan command-line tool executable {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/artisan"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Move temp SQLite DB into position {"from":"/home/elmigo/dev/FriendLee/test/.temp.sqlite","to":"/home/elmigo/dev/FriendLee/test/.wintercms/storage/database.sqlite"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Remove Composer Merge plugin from composer.json if found  
+[2024-10-07 11:28:45+04:00] NOTICE: Found merge plugin in required packages - removing  
+[2024-10-07 11:28:45+04:00] NOTICE: Found merge plugin config in "extra" config definition - removing  
+[2024-10-07 11:28:45+04:00] INFO: Installer API request received {"method":"POST","endpoint":"lockDependencies"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Create Composer instance  
+[2024-10-07 11:28:45+04:00] NOTICE: Set memory limit to 1.5GB  
+[2024-10-07 11:28:45+04:00] NOTICE: Set work directory for Composer {"path":"/home/elmigo/dev/FriendLee/test/.wintercms"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Create home/cache directory for Composer {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/.composer"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Set home/cache directory for Composer {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/.composer"} 
+[2024-10-07 11:28:45+04:00] NOTICE: Run Composer "update" command - generate only a lockfile  
+[2024-10-07 11:28:51+04:00] NOTICE: Locked Composer packages {"numPackages":117,"lockFile":"/home/elmigo/dev/FriendLee/test/.wintercms/composer.lock"} 
+[2024-10-07 11:28:51+04:00] INFO: Installer API request received {"method":"POST","endpoint":"installDependencies"} 
+[2024-10-07 11:28:51+04:00] NOTICE: Create Composer instance  
+[2024-10-07 11:28:51+04:00] NOTICE: Set memory limit to 1.5GB  
+[2024-10-07 11:28:51+04:00] NOTICE: Set work directory for Composer {"path":"/home/elmigo/dev/FriendLee/test/.wintercms"} 
+[2024-10-07 11:28:51+04:00] NOTICE: Set home/cache directory for Composer {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/.composer"} 
+[2024-10-07 11:28:51+04:00] NOTICE: Run Composer "install" command - install from lockfile  
+[2024-10-07 11:29:05+04:00] NOTICE: Installed Composer packages {"numPackages":117} 
+[2024-10-07 11:29:05+04:00] INFO: Installer API request received {"method":"POST","endpoint":"setupConfig"} 
+[2024-10-07 11:29:05+04:00] NOTICE: Booting Laravel framework  
+[2024-10-07 11:29:05+04:00] NOTICE: Loading autoloader  
+[2024-10-07 11:29:05+04:00] NOTICE: Bootstrapping kernel  
+[2024-10-07 11:29:05+04:00] NOTICE: Rewriting config {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/config/app.php"} 
+[2024-10-07 11:29:05+04:00] NOTICE: Rewriting config {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/config/cms.php"} 
+[2024-10-07 11:29:05+04:00] NOTICE: Rewriting config {"path":"/home/elmigo/dev/FriendLee/test/.wintercms/config/database.php"} 
+[2024-10-07 11:29:05+04:00] NOTICE: Flushing OPCache  
+[2024-10-07 11:29:05+04:00] INFO: Installer API request received {"method":"POST","endpoint":"runMigrations"} 
+[2024-10-07 11:29:05+04:00] NOTICE: Booting Laravel framework  
+[2024-10-07 11:29:05+04:00] NOTICE: Loading autoloader  
+[2024-10-07 11:29:06+04:00] NOTICE: Bootstrapping kernel  
+[2024-10-07 11:29:06+04:00] NOTICE: Running artisan "config:clear" command  
+[2024-10-07 11:29:06+04:00] NOTICE: Command finished. {"output":"\n   INFO  Configuration cache cleared successfully.  \n\n"} 
+[2024-10-07 11:29:06+04:00] NOTICE: Running database migrations  
+[2024-10-07 11:29:06+04:00] NOTICE: Command finished. {"output":"Migrating application and plugins...\n\n   INFO  Migration table created.  \n\n\nMigrating System module...\n\n   INFO  Running migrations.  \n\n  2013_10_01_000001_Db_Deferred_Bindings ........................... 12ms DONE\n  2013_10_01_000002_Db_System_Files ................................. 9ms DONE\n  2013_10_01_000003_Db_System_Plugin_Versions ....................... 5ms DONE\n  2013_10_01_000004_Db_System_Plugin_History ........................ 7ms DONE\n  2013_10_01_000005_Db_System_Settings .............................. 5ms DONE\n  2013_10_01_000006_Db_System_Parameters ............................ 5ms DONE\n  2013_10_01_000007_Db_System_Add_Disabled_Flag ..................... 2ms DONE\n  2013_10_01_000008_Db_System_Mail_Templates ........................ 5ms DONE\n  2013_10_01_000009_Db_System_Mail_Layouts .......................... 2ms DONE\n  2014_10_01_000010_Db_Jobs ......................................... 3ms DONE\n  2014_10_01_000011_Db_System_Event_Logs ............................ 5ms DONE\n  2014_10_01_000012_Db_System_Request_Logs .......................... 2ms DONE\n  2014_10_01_000013_Db_System_Sessions .............................. 5ms DONE\n  2015_10_01_000014_Db_System_Mail_Layout_Rename .................... 1ms DONE\n  2015_10_01_000015_Db_System_Add_Frozen_Flag ....................... 2ms DONE\n  2015_10_01_000016_Db_Cache ........................................ 5ms DONE\n  2015_10_01_000017_Db_System_Revisions ............................. 9ms DONE\n  2015_10_01_000018_Db_FailedJobs ................................... 3ms DONE\n  2016_10_01_000019_Db_System_Plugin_History_Detail_Text ........... 44ms DONE\n  2016_10_01_000020_Db_System_Timestamp_Fix ......................... 0ms DONE\n  2017_08_04_121309_Db_Deferred_Bindings_Add_Index_Session .......... 2ms DONE\n  2017_10_01_000021_Db_System_Sessions_Update ....................... 6ms DONE\n  2017_10_01_000022_Db_Jobs_FailedJobs_Update ...................... 11ms DONE\n  2017_10_01_000023_Db_System_Mail_Partials ......................... 3ms DONE\n  2017_10_23_000024_Db_System_Mail_Layouts_Add_Options_Field ........ 3ms DONE\n  2021_10_01_000025_Db_Add_Pivot_Data_To_Deferred_Bindings .......... 3ms DONE\n  2022_08_06_000026_Db_System_Add_App_Birthday_Date ................. 6ms DONE\n  2022_10_14_000027_Db_Jobs_FailedJobs_Update ...................... 24ms DONE\n  2023_09_24_000028_Db_System_Sessions_Indexes ...................... 5ms DONE\n  2023_10_20_000029_Db_Jobs_Batches ................................. 3ms DONE\n\n\nMigrating Backend module...\n\n   INFO  Running migrations.  \n\n  2013_10_01_000001_Db_Backend_Users ............................... 14ms DONE\n  2013_10_01_000002_Db_Backend_User_Groups .......................... 5ms DONE\n  2013_10_01_000003_Db_Backend_Users_Groups ......................... 2ms DONE\n  2013_10_01_000004_Db_Backend_User_Throttle ........................ 7ms DONE\n  2014_01_04_000005_Db_Backend_User_Preferences ..................... 5ms DONE\n  2014_10_01_000006_Db_Backend_Access_Log ........................... 3ms DONE\n  2014_10_01_000007_Db_Backend_Add_Description_Field ................ 9ms DONE\n  2015_10_01_000008_Db_Backend_Add_Superuser_Flag ................... 3ms DONE\n  2016_10_01_000009_Db_Backend_Timestamp_Fix ........................ 0ms DONE\n  2017_10_01_000010_Db_Backend_User_Roles ........................... 8ms DONE\n  2018_12_16_000011_Db_Backend_Add_Deleted_At ....................... 0ms DONE\n  2023_02_16_000012_Db_Backend_Add_User_Metadata .................... 2ms DONE\n  2023_09_09_000013_Db_Backend_Add_Users_Groups_Delete_At ........... 2ms DONE\n\n\nMigrating Cms module...\n\n   INFO  Running migrations.  \n\n  2014_10_01_000001_Db_Cms_Theme_Data ............................... 5ms DONE\n  2016_10_01_000002_Db_Cms_Timestamp_Fix ............................ 0ms DONE\n  2017_10_01_000003_Db_Cms_Theme_Logs .............................. 10ms DONE\n  2018_11_01_000001_Db_Cms_Theme_Templates .......................... 7ms DONE\n\n\nSeeding System module...\n\n   INFO  Seeded System.  \n\n\nSeeding Backend module...\n\n   INFO  Seeded Backend.  \n\nMigrating Winter Demo (Winter.Demo) plugin...\n\n   INFO  Running migrations.  \n\n  1.0.1:    First version of Demo ................................... 5ms DONE\n\n\n   INFO  Migration complete.  \n\n   INFO  \\Backend\\Database\\Seeds\\DatabaseSeeder reported the following:  \n\n    - The following password has been automatically generated for the \"admin\" account: vF0SurtGMledkil8Upxjib\n\n"} 
+[2024-10-07 11:29:06+04:00] INFO: Installer API request received {"method":"POST","endpoint":"createAdmin"} 
+[2024-10-07 11:29:06+04:00] NOTICE: Booting Laravel framework  
+[2024-10-07 11:29:06+04:00] NOTICE: Loading autoloader  
+[2024-10-07 11:29:06+04:00] NOTICE: Bootstrapping kernel  
+[2024-10-07 11:29:06+04:00] NOTICE: Finding initial admin account  
+[2024-10-07 11:29:06+04:00] NOTICE: Changing admin account to details provided in installation  
+[2024-10-07 11:29:06+04:00] INFO: Installer API request received {"method":"POST","endpoint":"cleanUp"} 
+[2024-10-07 11:29:06+04:00] NOTICE: Removing installation files  
+[2024-10-07 11:29:06+04:00] NOTICE: Removing temporary installation folders  
+[2024-10-07 11:29:06+04:00] NOTICE: Removing core development files  
+[2024-10-07 11:29:06+04:00] NOTICE: Moving files from temporary work directory to final installation path {"workDir":"/home/elmigo/dev/FriendLee/test/.wintercms","installDir":"/home/elmigo/dev/FriendLee/test"} 
+[2024-10-07 11:29:06+04:00] NOTICE: Removing work directory  
+[2024-10-07 11:29:06+04:00] NOTICE: Installation complete!  
