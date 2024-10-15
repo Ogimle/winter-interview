@@ -1,0 +1,22 @@
+{% set post = __SELF__.post %}
+
+<div class="card-container">
+    <div class="card">
+        <img class="card__image" src="{{ post.featured_images[0].path }}" alt="#">
+        <h3 class="card__heading">Eloquentiam</h3>
+        <h2 class="card__title">{{ post.title }}</h2>
+        <p class="card__para">{{ post.excerpt }}</p>
+        <hr>
+        <p class="card__para">{{ post.content_html| raw }}</p>
+
+        <hr>
+        <div class="card-learnmore">
+            <h3 class="card__learnmore"><a href="javascript:void(0)" onclick="history.back()">< Back to list</a></h3>
+            <div class="card-blogger">
+                <h4 class="card-blogger__date">{{ post.published_at.format("d F Y") }}</h4>
+                <h3 class="card-blogger__name">Cayla Brister</h3>
+                <img class="card-blogger__image" src="{{ 'assets/img/cardbloggerimgedit.png'|theme }}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
